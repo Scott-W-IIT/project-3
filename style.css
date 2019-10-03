@@ -1,5 +1,11 @@
-p {color: lightgrey;
+
+
+body {background-color: lightgrey;
+}
+
+p {color: yellow;
 }
 
 h1 {color: red;
 }
+
