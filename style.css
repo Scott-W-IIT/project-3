@@ -8,6 +8,8 @@ nav {
   text-align: center;
   display: inline-block;
 }
+li{float: left;
+}
 
 body {background-color: #D5DCE6;
 }
