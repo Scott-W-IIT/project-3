@@ -1,4 +1,4 @@
-nav, ul {
+nav {
   background-color: orange;
   width: 300px;
   border: 15px solid green;
@@ -9,7 +9,7 @@ nav, ul {
   display: inline-block;
 }
 
-body {background-color: rgb(245,202,202);
+body {background-color: #D5DCE6;
 }
 
 p {color: ;
@@ -18,3 +18,5 @@ p {color: ;
 h1 {color: red;
 }
 
+img {position: center;
+}
