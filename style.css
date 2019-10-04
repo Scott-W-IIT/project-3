@@ -25,6 +25,12 @@ li a:hover {
 }
 
 body {background-color: #D5DCE6;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:2%;
+    margin-top:2%;
+    width:97%;
+    height:97%;
 }
 
 p {color: black;
