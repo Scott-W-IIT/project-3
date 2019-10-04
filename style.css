@@ -30,7 +30,8 @@ body {background-color: #D5DCE6;
 p {color: black;
 }
 
-h1 {color: red;
+h1 {color: #333;
+	text-align: center;
 }
 
 img {position: center;
