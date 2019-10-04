@@ -25,12 +25,10 @@ li a:hover {
 }
 
 body {background-color: #D5DCE6;
-    margin-left:2%;
-    margin-right:5%;
-    margin-bottom:2%;
-    margin-top:2%;
-    width:97%;
-    height:97%;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:2px;
+    margin-top:3px;
 }
 
 p {color: black;
