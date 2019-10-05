@@ -44,3 +44,10 @@ img {position: center;
 	padding: 15px
 	margin:10px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
