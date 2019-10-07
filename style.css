@@ -19,7 +19,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+li a: hover {
 	background-color: #D5DCE6;
 	color: #333;
 }
