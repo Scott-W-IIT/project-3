@@ -1,5 +1,5 @@
 img {
-  border: .1em green;
+  border: .1em solid green;
   border-radius: .4em;
   padding: .5em;
   float: left;
