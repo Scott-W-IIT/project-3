@@ -7,8 +7,6 @@ nav{
     text-align:center;
     overflow: hidden;
     background-color: #333;
-    transition: transform 2s;
-    -webkit- transition: transform 2s;
 }
 
 nav li{
@@ -25,7 +23,6 @@ nav a{
 nav a:hover {
 	background-color: #D5DCE6;
 	color: #333;
-	transform: rotate(180deg);
 }
 
 footer {
