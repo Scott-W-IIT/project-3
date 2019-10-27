@@ -25,11 +25,16 @@ nav a:hover {
 	color: #333;
 }
 
+@import url(<link href="https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap" rel="stylesheet">)
+
 footer {
 	background-color: #333
 }
 
 body {
+	font-family: 'Philosopher', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 	background-color: #D5DCE6;
 	margin-left: 1em;
 	margin-right: 1em;
