@@ -104,3 +104,14 @@ h1,h2,h3,h4,h5,h6 {
 .piclies:hover {
 	transform: skew(10deg 10deg)
 }
+.wrapper {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+.indeximage {
+      border-radius: 1.5em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
