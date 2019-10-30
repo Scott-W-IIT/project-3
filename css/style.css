@@ -63,6 +63,13 @@ h1,h2,h3,h4,h5,h6 {
 	margin-top: .3em;
 }
 
+      video {
+        border-radius: 1.5em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
 .center {
 	display: block;
 	margin-left: auto;
@@ -74,3 +81,19 @@ h1,h2,h3,h4,h5,h6 {
 	width: 80%;
 	height: auto;
 }
+
+.h1lies {
+        font-weight: bolder;
+        font-size: xx-large;
+        text-shadow: .1em .1em green;
+        margin-bottom: .3em;
+        margin-top: .2em;
+        margin-left: 1em;
+        font-family: 'Roboto Slab', Arial, serif;
+      }
+.h3plies {
+        margin-bottom: .3em;
+        margin-top: .2em;
+        margin-left: 1em;
+        font-family: 'Roboto Slab', Arial, serif;
+      }
