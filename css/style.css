@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Grenze|Merriweather|Roboto+Slab&display=swap" rel="stylesheet")
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet")
-@import url("https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap" rel="stylesheet")
+@import url("https://fonts.googleapis.com/css?family=Grenze|Merriweather|Roboto+Slab&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap" rel="stylesheet");
+
 nav{
     border: .1em solid #ccc;
     border-width: .1em 0;
