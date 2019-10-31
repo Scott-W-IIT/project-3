@@ -1,176 +1,205 @@
+
+
 @import url("https://fonts.googleapis.com/css?family=Grenze|Merriweather|Roboto+Slab&display=swap" rel="stylesheet");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap" rel="stylesheet");
-
-nav{
-    border: .1em solid #ccc;
-    border-width: .1em 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    overflow: hidden;
-    background-color: #333;
+nav {
+  border: .1em solid #ccc;
+  border-width: .1em 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
 }
 
-nav li{
-    display:inline;
+nav li {
+  display: inline;
 }
 
-nav a{
-    display:inline-block;
-    color: white;
-    padding:1em;
-    text-decoration: none;
-    transition: transform 2s;
-      -webkit- transition: transform 2s ease-in-out;
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  transition: transform 2s;
+  -webkit- transition: transform 2s ease-in-out;
 }
 
 nav a:hover {
-	background-color: #D5DCE6;
-	color: #333;
-	transform: scaleX(1.05);
+  background-color: #D5DCE6;
+  color: #333;
+  transform: scaleX(1.05);
 }
+
 body {
-	font-family: 'Philosopher', Helvetica, sans-serif;
-	background-color: #D5DCE6;
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-bottom: 1em;
-	margin-top: .6em;
+  font-family: 'Philosopher', Helvetica, sans-serif;
+  background-color: #D5DCE6;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: .6em;
 }
 
 p {
-	color: black;
-	line-height: 1.7;
-	margin-bottom: 1em;
-
+  color: black;
+  line-height: 1.7;
+  margin-bottom: 1em;
 }
 
 h1 {
-	text-align: center;
-	line-height: 2;
-	font: 222%;
-	font-weight: 999;
-	margin-bottom: 1em;
-	margin-top: .3em;
+  text-align: center;
+  line-height: 2;
+  font: 222%;
+  font-weight: 999;
+  margin-bottom: 1em;
+  margin-top: .3em;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color: #333;
-	line-height: 1.7;
-	margin-bottom: 1em;
-	margin-top: .3em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 1em;
+  margin-top: .3em;
 }
 
 footer {
-	background-color: #333
+  background-color: #333
 }
 
-em {font-style: italic;}
+em {
+  font-style: italic;
+}
 
-      video {
-        border-radius: 1.5em;
-        border: .1em solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
+video {
+  border-radius: 1.5em;
+  border: .1em solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .responsive {
-	width: 80%;
-	height: auto;
+  width: 80%;
+  height: auto;
 }
 
 .h1lies {
-        font-weight: bolder;
-        font-size: xx-large;
-        text-shadow: .1em .1em green;
-        margin-bottom: .3em;
-        margin-top: .2em;
-        margin-left: 1em;
-        font-family: 'Roboto Slab', Arial, serif;
-      }
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: .1em .1em green;
+  margin-bottom: .3em;
+  margin-top: .2em;
+  margin-left: 1em;
+  font-family: 'Roboto Slab', Arial, serif;
+}
+
 .h3plies {
-        margin-bottom: .3em;
-        margin-top: .2em;
-        margin-left: 1em;
-        font-family: 'Roboto Slab', Arial, serif;
-      }
+  margin-bottom: .3em;
+  margin-top: .2em;
+  margin-left: 1em;
+  font-family: 'Roboto Slab', Arial, serif;
+}
 
+.fluid {
+  margin-left: 8%;
+  margin-right: 8%;
+}
 
-.fluid {      margin-left: 8%;
-      margin-right: 8%; }
 .wrapper {
-      width: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-      }
-.indeximage {
-      border-radius: 1.5em;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border: .1em solid green;
-      transition: transform 2s;
-      -webkit- transition: transform 2s;
-      }
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-      .indeximage:hover {transform: scale(.8);}
+.indeximage {
+  border-radius: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: .1em solid green;
+  transition: transform 2s;
+  -webkit- transition: transform 2s;
+}
+
+.indeximage:hover {
+  transform: scale(.8);
+}
 
 .indexh1 {
-      margin-bottom: 1em;
-      margin-top: .7em;
-      font: 222% verdana, sans-serif;
-      font-weight: 999;
-      }
-     .indexh2-6 {
-      margin-left: 1.6em;
-      margin-bottom: .5em;
-      margin-top: .7em;
-      font-weight: bold;
-      }
+  margin-bottom: 1em;
+  margin-top: .7em;
+  font: 222% verdana, sans-serif;
+  font-weight: 999;
+}
 
-.house {border: .5em solid green;
-      border-radius: .5em;
-      padding: .1em;
-      float: left;
-      transition: transform 2s;
-      -webkit- transition: transform 2s;}
+.indexh2-6 {
+  margin-left: 1.6em;
+  margin-bottom: .5em;
+  margin-top: .7em;
+  font-weight: bold;
+}
 
-            .house:hover {
-         transform: rotate(360deg);}
+.house {
+  border: .5em solid green;
+  border-radius: .5em;
+  padding: .1em;
+  float: left;
+  transition: transform 2s;
+  -webkit- transition: transform 2s;
+}
 
-      div.a {text-align: center;}
+.house:hover {
+  transform: rotate(360deg);
+}
 
-      div.b {display: block;
-      	width: auto;
-      	border: .5em solid green;
-      	 padding: .8em;
-      	 margin:auto;
-      	  text-align: left;}
+div.a {
+  text-align: center;
+}
 
-      img.c {border:0;width:auto;height:3em; vertical-align: middle;}
+div.b {
+  display: block;
+  width: auto;
+  border: .5em solid green;
+  padding: .8em;
+  margin: auto;
+  text-align: left;
+}
 
-      h1.aa {
-      font-family: 'Permanent Marker', cursive, serif;
-      font-size: 300%;
-      }
+img.c {
+  border: 0;
+  width: auto;
+  height: 3em;
+  vertical-align: middle;
+}
 
-      h3.bb {
-      margin-bottom: .01em;
-      }
-      h5.cc {
-      margin-bottom: 1em;
-      }
-.space {color: #D5DCE6;}
+h1.aa {
+  font-family: 'Permanent Marker', cursive, serif;
+  font-size: 300%;
+}
 
+h3.bb {
+  margin-bottom: .01em;
+}
 
+h5.cc {
+  margin-bottom: 1em;
+}
+
+.space {
+  color: #D5DCE6;
+}
 
