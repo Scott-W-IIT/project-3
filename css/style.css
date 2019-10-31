@@ -23,8 +23,8 @@ nav a {
   color: white;
   padding: 1em;
   text-decoration: none;
-  transition: transform 2s;
-  -webkit- transition: transform 2s ease-in-out;
+  transition: 2s;
+  -webkit- transition: 2s;
 }
 
 nav a:hover {
@@ -52,7 +52,7 @@ h1 {
   text-align: center;
   line-height: 2;
   font: 222%;
-  font-weight: 999;
+  font-weight: bolder;
   margin-bottom: 1em;
   margin-top: .3em;
 }
@@ -143,7 +143,7 @@ video {
   margin-bottom: 1em;
   margin-top: .7em;
   font: 222% verdana, sans-serif;
-  font-weight: 999;
+  font-weight: bolder;
 }
 
 .indexh2-6 {
