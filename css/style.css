@@ -118,3 +118,15 @@ h1,h2,h3,h4,h5,h6 {
       margin-left: auto;
       margin-right: auto;
       }
+
+.indexh1 {
+      margin-bottom: 1em;
+      margin-top: .7em;
+      font: 222% verdana, sans-serif;
+      font-weight: 999;
+      }
+     .indexh2-6 {
+      margin-left: 1.6em;
+      margin-bottom: .5em;
+      margin-top: .7em;
+      }
