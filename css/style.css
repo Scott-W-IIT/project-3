@@ -110,6 +110,8 @@ em {font-style: italic;}
 .piclies:hover {
 	transform: skew(10deg 10deg)
 }
+.fluid {      margin-left: 8%;
+      margin-right: 8%; }
 .wrapper {
       width: 1000px;
       margin-left: auto;
@@ -139,6 +141,17 @@ em {font-style: italic;}
       margin-top: .7em;
       font-weight: bold;
       }
+
+img.8 {border: .5em solid green;
+      border-radius: .5em;
+      padding: .1em;
+      float: left;
+      transition: transform 2s;
+      -webkit- transition: transform 2s;}
+
+            img.8:hover {
+         transform: rotate(360deg);
+
       div.1 {text-align: center;}
 
       div.2 {display: block;
@@ -147,5 +160,9 @@ em {font-style: italic;}
       	 padding: .8em;
       	 margin:auto;
       	  text-align: left;}
-
       img.9 {border:0;width:5.5em;height:3em}
+
+
+
+
+
