@@ -161,7 +161,16 @@ img.8 {border: .5em solid green;
       	 margin:auto;
       	  text-align: left;}
       img.9 {border:0;width:5.5em;height:3em}
-
+      h1.11 {
+      font-family: 'Permanent Marker', cursive, serif;
+      font-size: 300%;
+      }
+      h3.22 {
+      margin-bottom: .01em;
+      }
+      h5.33 {
+      margin-bottom: 1em;
+      }
 
 
 
