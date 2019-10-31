@@ -118,7 +118,7 @@ img.8 {border: .5em solid green;
       -webkit- transition: transform 2s;}
 
             img.8:hover {
-         transform: rotate(360deg);
+         transform: rotate(360deg);}
 
       div.1 {text-align: center;}
 
@@ -128,11 +128,14 @@ img.8 {border: .5em solid green;
       	 padding: .8em;
       	 margin:auto;
       	  text-align: left;}
+
       img.9 {border:0;width:5.5em;height:3em}
+
       h1.11 {
       font-family: 'Permanent Marker', cursive, serif;
       font-size: 300%;
       }
+      
       h3.22 {
       margin-bottom: .01em;
       }
