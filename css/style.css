@@ -140,14 +140,14 @@ em {font-style: italic;}
       font-weight: bold;
       }
 
-div.8 {border: .5em solid green;
+.house {border: .5em solid green;
       border-radius: .5em;
       padding: .1em;
       float: left;
       transition: transform 2s;
       -webkit- transition: transform 2s;}
 
-            div.8:hover {
+            .house:hover {
          transform: rotate(360deg);}
 
       div.1 {text-align: center;}
