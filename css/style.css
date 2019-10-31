@@ -157,7 +157,7 @@ em {font-style: italic;}
       	 margin:auto;
       	  text-align: left;}
 
-      img.c {border:0;width:5.5em;height:3em}
+      img.c {border:0;width:auto;height:3em; vertical-align: middle;}
 
       h1.aa {
       font-family: 'Permanent Marker', cursive, serif;
