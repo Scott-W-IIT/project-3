@@ -150,9 +150,9 @@ em {font-style: italic;}
             .house:hover {
          transform: rotate(360deg);}
 
-      div.1 {text-align: center;}
+      div.a {text-align: center;}
 
-      div.2 {display: block;
+      div.b {display: block;
       	width: auto;
       	border: .5em solid green;
       	 padding: .8em;
