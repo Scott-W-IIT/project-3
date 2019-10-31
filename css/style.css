@@ -23,8 +23,8 @@ nav a {
   color: white;
   padding: 1em;
   text-decoration: none;
-  transition: 2s;
-  -webkit- transition: 2s;
+  transition: 2s linear;
+  -webkit- transition: 2s linear;
 }
 
 nav a:hover {
@@ -158,8 +158,8 @@ video {
   border-radius: .5em;
   padding: .1em;
   float: left;
-  transition: transform 2s;
-  -webkit- transition: transform 2s;
+  transition: 2s;
+  -webkit- transition: 2s;
 }
 
 .house:hover {
