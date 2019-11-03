@@ -1,2 +1,2 @@
-# project-2
-adding css to project-1
+# project-3
+adding javascript to project-2
