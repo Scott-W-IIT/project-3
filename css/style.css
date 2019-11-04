@@ -201,4 +201,7 @@ h5.cc {
 .smallscreen {
   background-color: orange;
 }
-
+@media screen and (min-width: 600px) {
+  div.smallscreen {
+    display: initial;
+  }
