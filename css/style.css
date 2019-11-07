@@ -191,13 +191,6 @@ h5.cc {
   color: #D5DCE6;
 }
 
-@media screen and (min-width: 600px) {
-  div#space {
-    display: initial;
-    color: orange;
-  }
-}
-
 .smallscreen {
   background-color: orange;
   font-size: 120%;
