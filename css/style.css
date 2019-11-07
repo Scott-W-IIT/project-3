@@ -217,6 +217,12 @@ h5.cc {
   p.orange {color: orange;}
 }
 
+@media only screen and (max-width: 600px) {
+  p {
+    color: lightblue;
+  }
+}
+
 .vid {
 
 }
