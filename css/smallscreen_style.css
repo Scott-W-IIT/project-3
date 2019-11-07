@@ -23,8 +23,8 @@ nav a {
 
 nav a:hover {
   background-color: #D5DCE6;
-  color: #333;
-  transform: scaleX(1.05);
+  color: red;
+  transform: scaleX(1.09);
 }
 
 body {
