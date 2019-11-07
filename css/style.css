@@ -205,6 +205,7 @@ h5.cc {
 @media screen and (min-width: 600px) {
   div.smallscreen {
     display: initial;
+    color: white;
   }}
 
   .center {
@@ -212,17 +213,6 @@ h5.cc {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-
-@media only screen and (max-width: 600px) {
-  p.smallscreen {
-    color: white;
-  }
-  h6.smallscreen {color: orange;
-  }
-  h3.smallscreen {color: white;}
-
 }
 
 .vid {
