@@ -210,9 +210,9 @@ h5.cc {
   width: 50%;
 }
 
-#orange 
+.orange 
 {color:orange;}
 
 @media screen and (min-width: 600px) {
-  div#orange {display: initial;}
+  div.orange {display: initial;}
 }
