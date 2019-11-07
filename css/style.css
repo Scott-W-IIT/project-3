@@ -198,9 +198,14 @@ h5.cc {
   color: white;
   font-weight: lighter;
 }
-@media screen and (min-width: 600px) {
+@media screen (min-width: 600px) {
   div.smallscreen {
     display: initial;
+    background-color: orange;
+  font-size: 120%;
+  line-height: 1.5;
+  color: white;
+  font-weight: lighter;
   }}
 
   .center {
@@ -213,8 +218,8 @@ h5.cc {
 .orange 
 {color:orange;}
 
-@media screen and (min-width: 600px) {
-  p.orange {color: orange;}
+@media screen (min-width: 600px) {
+  div.orange {color: orange;}
 }
 
 .vid {
