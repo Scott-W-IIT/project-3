@@ -15,7 +15,7 @@ nav li {
 
 nav a {
   display: inline-block;
-  color: white;
+  color: red;
   padding: 1em;
   text-decoration: none;
   transition: transform 1s linear;
@@ -45,8 +45,8 @@ p {
 h1 {
   text-align: center;
   line-height: 2;
-  font: 222%;
   font-weight: bolder;
+  font-size: 250%;
   margin-bottom: 1em;
   margin-top: .3em;
 }
@@ -81,7 +81,7 @@ video {
   border-radius: 1.5em;
   border: .1em solid white;
   display: block;
-width: 100%
-height: auto;
+  width: 100%
+  height: auto;
   margin-bottom: 1em;
 }
