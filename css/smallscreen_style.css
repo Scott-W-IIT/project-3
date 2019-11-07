@@ -44,11 +44,13 @@ p {
 
 h1 {
   text-align: center;
-  line-height: 2;
+  line-height: 1.8;
   font-weight: bolder;
-  font-size: 250%;
+  font-size: 180%;
   margin-bottom: 1em;
   margin-top: .3em;
+  text-shadow: .05em .05em pink;
+  font-family: 'Roboto Slab', Arial, serif;
 }
 
 h1,
