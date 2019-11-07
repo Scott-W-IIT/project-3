@@ -190,6 +190,10 @@ h5.cc {
 #space {
   color: #D5DCE6;
 }
+@media screen and (min-width: 600px) {
+  div#space {
+    color:orange;
+  }}
 
 .smallscreen {
   background-color: orange;
