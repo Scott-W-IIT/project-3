@@ -82,13 +82,6 @@ video {
   margin-right: auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .responsive {
   width: 80%;
   height: auto;
@@ -198,10 +191,31 @@ h5.cc {
   color: #D5DCE6;
 }
 
+@media screen and (min-width: 600px) {
+  div.space {
+    display: initial;
+    color: orange;
+  }
+}
+
 .smallscreen {
   background-color: orange;
 }
 @media screen and (min-width: 600px) {
   div.smallscreen {
     display: initial;
-  }
+  }}
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  div.center {display: initial;
+    animation: spin 5s ease;
+  animation-iteration-count: infinite;
+}
+}
