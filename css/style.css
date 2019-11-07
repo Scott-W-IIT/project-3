@@ -187,12 +187,12 @@ h5.cc {
   margin-bottom: 1em;
 }
 
-.space {
+#space {
   color: #D5DCE6;
 }
 
 @media screen and (min-width: 600px) {
-  div.space {
+  div#space {
     display: initial;
     color: orange;
   }
@@ -200,6 +200,10 @@ h5.cc {
 
 .smallscreen {
   background-color: orange;
+  font-size: 120%;
+  line-height: 1.5;
+  font-color: purple;
+  font-weight: lighter;
 }
 @media screen and (min-width: 600px) {
   div.smallscreen {
@@ -211,11 +215,4 @@ h5.cc {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-@media screen and (min-width: 600px) {
-  div.center {display: initial;
-    animation: spin 5s ease;
-  animation-iteration-count: infinite;
-}
 }
