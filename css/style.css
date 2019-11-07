@@ -198,7 +198,7 @@ h5.cc {
   color: white;
   font-weight: lighter;
 }
-@media only screen and (min-width: 600px) {
+@media screen(min-width: 600px) {
   div.smallscreen {
     display: initial;
   }}
@@ -213,7 +213,7 @@ h5.cc {
 .orange 
 {color:orange;}
 
-@media only screen and (min-width: 600px) {
+@media screen(min-width: 600px) {
   div.orange {display: initial;}
 }
 
