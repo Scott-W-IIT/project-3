@@ -210,17 +210,15 @@ h5.cc {
   width: 50%;
 }
 
-.orange 
-{color:orange;}
-
-@media screen and (min-width: 600px) {
-  p.orange {color: orange;}
-}
 
 @media only screen and (max-width: 600px) {
-  p {
-    color: lightblue;
+  p.smallscreen {
+    color: white;
   }
+  h6.smallscreen {color: orange;
+  }
+  h3.smallscreen {color: white;}
+
 }
 
 .vid {
