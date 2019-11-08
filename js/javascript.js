@@ -15,7 +15,7 @@
 
         var image = 'images/logansmall.jpg';
         var beachMarker = new google.maps.Marker({
-          position: {lat: -33.890, lng: 151.274},
+          position: {lat: 41.8615, lng: -87.6136},
           map: map,
           icon: image
         });
