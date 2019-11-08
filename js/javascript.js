@@ -20,5 +20,17 @@
           icon: image
         });
 
+map.addListener('center_changed', function() {
+
+          window.setTimeout(function() {
+            map.panTo(marker.getPosition());
+          }, 2500);
+        });
+
+        marker.addListener('click', function() {
+          map.setZoom(8);
+          map.setCenter(marker.getPosition());
+        });
+
 
       }
