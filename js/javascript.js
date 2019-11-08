@@ -13,7 +13,7 @@
           title: 'The Balbo Monument'
         });
 
-        var image = 'images/logansmall.jpg';
+        var image = 'images/balbo.jpg';
         var beachMarker = new google.maps.Marker({
           position: {lat: 41.8615, lng: -87.6136},
           map: map,
