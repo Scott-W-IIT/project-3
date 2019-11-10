@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Map to Balbo</title>
     <style>
       #map {
         height: 100%;
       }
 
-      html, body {
+      html,
+      body {
         height: 90%;
         width: auto;
         margin-left: 4em;
         margin-right: 4em;
       }
     </style>
+    <script src="js/javascript.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtlwn67utrYAPCrMuZpQVn60VrgLMcl-Q&callback=initMap"
+      async
+      defer
+    ></script>
   </head>
   <body>
-     <header>
+    <header>
       <nav>
         <ul>
-          <li><strong><a href="index.html">Scott's Professional Resume</a></strong></li>
-          <li><strong><a href="house-with-door.html">House with Door</a></strong></li>
-          <li><strong><a href="lies-i-tell.html">Lies I Tell My Colleagues</a></strong></li>
-          <li><strong><a href="balbo_map.html">Balbo's Column</a></strong></li>
+          <li>
+            <strong
+              ><a href="index.html">Scott's Professional Resume</a></strong
+            >
+          </li>
+          <li>
+            <strong><a href="house-with-door.html">House with Door</a></strong>
+          </li>
+          <li>
+            <strong
+              ><a href="lies-i-tell.html">Lies I Tell My Colleagues</a></strong
+            >
+          </li>
+          <li>
+            <strong><a href="balbo_map.html">Balbo's Column</a></strong>
+          </li>
         </ul>
       </nav>
     </header>
     <div id="map"></div>
-    <script src="js/javascript.js">
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtlwn67utrYAPCrMuZpQVn60VrgLMcl-Q&callback=initMap"
-    async defer></script>
-    <p>The Balbo Monument is a 2000 year old Roman column flown over from Italy to Chicago shortly before WWII. The man who gifted it, Italo Balbo, was a general for the Fascist dictator Benito Mussolini. The column was meant to send a message to the Italians living in Chicago that Italian Fascism had global support and vast resources. Efforts have been made throughout the years to change the dedication of the monument. Still, it remains the oldest man-made object outside of a museum in Chicago.</p>
+    <p>
+      The Balbo Monument is a 2000 year old Roman column flown over from Italy
+      to Chicago shortly before WWII. The man who gifted it, Italo Balbo, was a
+      general for the Fascist dictator Benito Mussolini. The column was meant to
+      send a message to the Italians living in Chicago that Italian Fascism had
+      global support and vast resources. Efforts have been made throughout the
+      years to change the dedication of the monument. Still, it remains the
+      oldest man-made object outside of a museum in Chicago.
+    </p>
   </body>
 </html>
