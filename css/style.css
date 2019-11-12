@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Grenze|Merriweather|Roboto+Slab&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Grenze|Merriweather|Roboto+Slab&display=swap"rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans|Philosopher|Sawarabi+Mincho&display=swap"rel="stylesheet");
 nav {
-  border: .1em solid #ccc;
-  border-width: .1em 0;
+  border: 0.1em solid #ccc;
+  border-width: 0.1em 0;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -31,12 +31,12 @@ nav a:hover {
 }
 
 body {
-  font-family: 'Philosopher', Helvetica, sans-serif;
+  font-family: "Philosopher", Helvetica, sans-serif;
   background-color: #D5DCE6;
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 1em;
-  margin-top: .6em;
+  margin-top: 0.6em;
 }
 
 p {
@@ -51,7 +51,7 @@ h1 {
   font: 222%;
   font-weight: bolder;
   margin-bottom: 1em;
-  margin-top: .3em;
+  margin-top: 0.3em;
 }
 
 h1,
@@ -63,11 +63,11 @@ h6 {
   color: #333;
   line-height: 1.7;
   margin-bottom: 1em;
-  margin-top: .3em;
+  margin-top: 0.3em;
 }
 
 footer {
-  background-color: #333
+  background-color: #333;
 }
 
 em {
@@ -76,7 +76,7 @@ em {
 
 video {
   border-radius: 1.5em;
-  border: .1em solid black;
+  border: 0.1em solid black;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -90,18 +90,18 @@ video {
 .h1lies {
   font-weight: bolder;
   font-size: xx-large;
-  text-shadow: .1em .1em green;
-  margin-bottom: .3em;
-  margin-top: .2em;
+  text-shadow: 0.1em 0.1em green;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
   margin-left: 1em;
-  font-family: 'Roboto Slab', Arial, serif;
+  font-family: "Roboto Slab", Arial, serif;
 }
 
 .h3plies {
-  margin-bottom: .3em;
-  margin-top: .2em;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
   margin-left: 1em;
-  font-family: 'Roboto Slab', Arial, serif;
+  font-family: "Roboto Slab", Arial, serif;
 }
 
 .fluid {
@@ -120,32 +120,32 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: .1em solid green;
+  border: 0.1em solid green;
   transition: 2s;
 }
 
 .indeximage:hover {
-  transform: scale(.8);
+  transform: scale(0.8);
 }
 
 .indexh1 {
   margin-bottom: 1em;
-  margin-top: .7em;
+  margin-top: 0.7em;
   font: 222% verdana, sans-serif;
   font-weight: bolder;
 }
 
 .indexh2-6 {
   margin-left: 1.6em;
-  margin-bottom: .5em;
-  margin-top: .7em;
+  margin-bottom: 0.5em;
+  margin-top: 0.7em;
   font-weight: bold;
 }
 
 .house {
-  border: .5em solid green;
-  border-radius: .5em;
-  padding: .1em;
+  border: 0.5em solid green;
+  border-radius: 0.5em;
+  padding: 0.1em;
   float: left;
   transition: 2s ease-in-out;
 }
@@ -161,8 +161,8 @@ div.a {
 div.b {
   display: block;
   width: auto;
-  border: .5em solid green;
-  padding: .8em;
+  border: 0.5em solid green;
+  padding: 0.8em;
   margin: auto;
   text-align: left;
 }
@@ -175,12 +175,12 @@ img.c {
 }
 
 h1.aa {
-  font-family: 'Permanent Marker', cursive, serif;
+  font-family: "Permanent Marker", cursive, serif;
   font-size: 300%;
 }
 
 h3.bb {
-  margin-bottom: .01em;
+  margin-bottom: 0.01em;
 }
 
 h5.cc {
@@ -197,4 +197,3 @@ h5.cc {
   margin-right: auto;
   width: 50%;
 }
-
