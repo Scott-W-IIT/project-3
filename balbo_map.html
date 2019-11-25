@@ -6,26 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
     <title>Map to Balbo</title>
-    <style>
-      #map {
-      height: 90%;
-      }
-      html,
-      body {
-      height: 90%;
-      width: auto;
-      margin-left: 4em;
-      margin-right: 4em;
-      }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/javascript.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtlwn67utrYAPCrMuZpQVn60VrgLMcl-Q&callback=initMap"
-      async
-      defer
-      ></script>
   </head>
   <body>
     <header>
@@ -46,8 +28,9 @@
         </ul>
       </nav>
     </header>
-    <div id="map"></div>
-    <p id="demo"></p>
-    <button id="me" type="button" onclick='document.getElementById("demo").innerHTML = "The Balbo Monument is a 2000 year old Roman column flown over from Italy to Chicago shortly before WWII. The man who gifted it, Italo Balbo, was a general for the Fascist dictator Benito Mussolini. The column was meant to send a message to the Italians living in Chicago that Italian Fascism had global support and vast resources. Efforts have been made throughout theyears to change the dedication of the monument. Still, it remains theoldest man-made object outside of a museum in Chicago."'>Learn More!</button>
+    <div id="mapbox">
+      <div id="googleMap"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtlwn67utrYAPCrMuZpQVn60VrgLMcl-Q&callback=myMap"></script>
   </body>
 </html>
