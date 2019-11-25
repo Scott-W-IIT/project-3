@@ -202,7 +202,7 @@ h5.cc {
 
 
 
-
+@media screen and (max-width: 6500px){
 
 nav.small {
   border: .1em solid #ccc;
@@ -292,4 +292,5 @@ video.small {
   width: 100%;
   height: auto;
   margin-bottom: 1em;
+}
 }
