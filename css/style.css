@@ -81,7 +81,7 @@ video {
   border-radius: 1.5em;
   border: .1em solid white;
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
   margin-bottom: 1em;
 }
@@ -210,6 +210,7 @@ h5.cc {
   border-radius: 1.5em;
   border: 0.1em solid black;
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
