@@ -206,7 +206,12 @@ h5.cc {
   width: 50%;
 }
 
-
+.gods {
+  width: auto; 
+  border: .2em solid black; 
+  padding: .2em; 
+  border-radius: .6em;
+}
 
 /*small style*/
 @media screen and (min-width: 650px){
