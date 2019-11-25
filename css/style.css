@@ -204,7 +204,7 @@ h5.cc {
 
 
 
-@media screen and (min-width: 1px){
+
 
 nav {
   border: .1em solid #ccc;
@@ -234,10 +234,10 @@ nav a:hover {
   color: red;
   transform: scaleX(1.09);
 }
-}
 
 
-@media screen and (min-width: 1px){
+
+
 body {
   font-family: 'Philosopher', Helvetica, sans-serif;
   background-color: red;
@@ -298,4 +298,4 @@ video {
   height: auto;
   margin-bottom: 1em;
 }
-}
+
