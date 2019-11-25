@@ -202,9 +202,9 @@ h5.cc {
 
 
 
-@media screen and (max-width: 6500px){
+@media screen and (max-width: 650px){
 
-nav.small {
+nav {
   border: .1em solid #ccc;
   border-width: .1em 0;
   list-style: none;
@@ -215,11 +215,11 @@ nav.small {
   background-color: #333;
 }
 
-nav li.small {
+nav li {
   display: inline;
 }
 
-nav a.small {
+nav a {
   display: inline-block;
   color: red;
   padding: 1em;
@@ -227,13 +227,16 @@ nav a.small {
   transition: transform 1s linear;
 }
 
-nav a:hover.small {
+nav a:hover {
   background-color: #D5DCE6;
   color: red;
   transform: scaleX(1.09);
 }
+}
 
-body.small {
+
+@media screen and (max-width: 650px){
+body {
   font-family: 'Philosopher', Helvetica, sans-serif;
   background-color: red;
   margin-left: .7em;
@@ -242,13 +245,13 @@ body.small {
   margin-top: .6em;
 }
 
-p.small {
+p {
   color: white;
   line-height: 1.8;
   margin-bottom: .8em;
 }
 
-h1.small {
+h1 {
   text-align: center;
   line-height: 1.8;
   font-weight: bolder;
@@ -263,7 +266,7 @@ h1,
 h2,
 h3,
 h4,
-h5.small
+h5
  {
   color: white;
   line-height: 1.7;
@@ -271,21 +274,21 @@ h5.small
   margin-top: .3em;
 }
 
-h6.small
+h6
 {color: red;}
 
-footer.small {
+footer {
   background-color: #333
 }
 
-img.small {
+img {
   margin-right: auto;
   margin-left: auto;
   display: block;
 }
 
 
-video.small {
+video {
   border-radius: 1.5em;
   border: .1em solid white;
   display: block;
