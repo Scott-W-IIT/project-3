@@ -76,12 +76,14 @@ em {
   font-style: italic;
 }
 
+
 video {
   border-radius: 1.5em;
-  border: 0.1em solid black;
+  border: .1em solid white;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
 }
 
 .responsive {
@@ -204,10 +206,15 @@ h5.cc {
 
 /*small style*/
 @media screen and (min-width: 650px){
-  .tall {
-    background-color: #D5DCE6;
-  }
+  video {
+  border-radius: 1.5em;
+  border: 0.1em solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+  }
+
 
 
 
