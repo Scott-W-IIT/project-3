@@ -1,26 +1,40 @@
-
-var map;
-function initMap() {
+function myMap() {
   var myLatLng = { lat: 41.8615, lng: -87.6136 };
 
-  var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16,
+  var map = new google.maps.Map(document.getElementById("googleMap"), {
+    zoom: 17,
     center: myLatLng,
     styles: mapstyle
   });
 
   var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: "The Balbo Monument"
+    position: myLatLng
   });
 
-  var image = "images/balbo.jpeg";
-  var beachMarker = new google.maps.Marker({
-    position: { lat: 41.8615, lng: -87.6136 },
-    map: map,
-    icon: image
+  marker.setMap(map);
+  var infowindow = new google.maps.InfoWindow({
+    content: "The Balbo Monument"
   });
+
+  infowindow.open(map, marker);
+
+  google.maps.event.addListener(marker, "click", function() {
+    var pos = map.getZoom();
+    map.setZoom(11);
+    map.setCenter(marker.getPosition());
+    window.setTimeout(function() {
+      map.setZoom(pos);
+    }, 2000);
+  });
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+  }
+  marker.addListener("click", toggleBounce);
 }
 
 const mapstyle = [
