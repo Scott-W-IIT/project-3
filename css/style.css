@@ -197,3 +197,99 @@ h5.cc {
   margin-right: auto;
   width: 50%;
 }
+
+
+
+
+
+
+
+nav.small {
+  border: .1em solid #ccc;
+  border-width: .1em 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li.small {
+  display: inline;
+}
+
+nav a.small {
+  display: inline-block;
+  color: red;
+  padding: 1em;
+  text-decoration: none;
+  transition: transform 1s linear;
+}
+
+nav a:hover.small {
+  background-color: #D5DCE6;
+  color: red;
+  transform: scaleX(1.09);
+}
+
+body.small {
+  font-family: 'Philosopher', Helvetica, sans-serif;
+  background-color: red;
+  margin-left: .7em;
+  margin-right: .7em;
+  margin-bottom: .7em;
+  margin-top: .6em;
+}
+
+p.small {
+  color: white;
+  line-height: 1.8;
+  margin-bottom: .8em;
+}
+
+h1.small {
+  text-align: center;
+  line-height: 1.8;
+  font-weight: bolder;
+  font-size: 180%;
+  margin-bottom: 1em;
+  margin-top: .3em;
+  text-shadow: .05em .05em pink;
+  font-family: 'Roboto Slab', Arial, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5.small
+ {
+  color: white;
+  line-height: 1.7;
+  margin-bottom: 1em;
+  margin-top: .3em;
+}
+
+h6.small
+{color: red;}
+
+footer.small {
+  background-color: #333
+}
+
+img.small {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+
+video.small {
+  border-radius: 1.5em;
+  border: .1em solid white;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
