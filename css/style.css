@@ -81,7 +81,7 @@ video {
   border-radius: 1.5em;
   border: .1em solid white;
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin-bottom: 1em;
 }
@@ -90,14 +90,17 @@ video {
   width: 80%;
   height: auto;
 }
-
+.small {
+  background-color: red;
+}
 .h1lies {
   font-weight: bolder;
-  font-size: xx-large;
-  text-shadow: 0.1em 0.1em green;
+  font-size: large;
+  color: green;
+  text-shadow: 0.1em 0.1em white;
   margin-bottom: 0.3em;
   margin-top: 0.2em;
-  margin-left: 1em;
+  margin-left: 1.3em;
   font-family: "Roboto Slab", Arial, serif;
 }
 
@@ -106,6 +109,7 @@ video {
   margin-top: 0.2em;
   margin-left: 1em;
   font-family: "Roboto Slab", Arial, serif;
+  color: white;
 }
 
 .fluid {
@@ -214,7 +218,27 @@ h5.cc {
   margin-left: auto;
   margin-right: auto;
 }
+.h3plies {
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  margin-left: 1em;
+  font-family: "Roboto Slab", Arial, serif;
+  color: #333;
   }
+  .h1lies {
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: 0.1em 0.1em green;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  margin-left: 1em;
+  font-family: "Roboto Slab", Arial, serif;
+  color: #333;
+}
+.small {
+  background-color: #D5DCE6;
+}
+}
 
 
 
