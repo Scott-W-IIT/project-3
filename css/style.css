@@ -211,6 +211,10 @@ h5.cc {
   border: .2em solid black; 
   padding: .2em; 
   border-radius: .6em;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*small style*/
