@@ -203,13 +203,13 @@ h5.cc {
 
 
 /*small style*/
-@media screen and (min-width: 2200px){
+@media screen and (min-width: 650px){
   .tall {
     background-color: #D5DCE6;
   }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 1px) {
   .small {
     background-color:red;
   }
