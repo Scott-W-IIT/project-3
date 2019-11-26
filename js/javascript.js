@@ -313,7 +313,7 @@ function popoutFunction() {
 };
 
 
-//Begin Slider
+//Begin Slider. used the one from https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/
 
       var controls = document.querySelectorAll(".controls");
       for (var i = 0; i < controls.length; i++) {
