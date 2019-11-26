@@ -317,7 +317,7 @@ just for appearance; change whatever you want
 /*images*/
 .slide:nth-of-type(1){
     background-color: red;
-  background-image: url('images/ResumePic.jpg');
+  background-image: url('https://scott-w-iit.github.io/project-3/images/ResumePic.jpg');
 }
 
 .slide:nth-of-type(2){
@@ -327,7 +327,7 @@ just for appearance; change whatever you want
 
 .slide:nth-of-type(3){
     background-color: green;
-  background-image: url('images/cool_dude.jpeg');
+  background-image: url('images/Cave.jpg');
 }
 
 .controls{
