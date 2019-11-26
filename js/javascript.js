@@ -308,9 +308,9 @@ const mapstyle = [
 ];
 
 //Begin Popup script
-function myFunction() {
+function popoutFunction() {
   alert("The Balbo Monument was a gift to Chicago from fascist dictator Benito Mussolini, erected in 1934 to commemorate a celebrated trans-Atlantic flight of 24 11-ton seaplanes from Rome to Chicago. The namesake of the monument comes from the leader of that voyage, General Italo Balbo, an Italian aviator who had been central to the Mussolini regime and later became one of his most feared warlords. Not long after his visit to Chicago, Balbo led the bombing of unarmed Africans in Ethiopia. As fascism spread across Europe in the 1930s, his tactics were celebrated in speeches by no less than Hitler.Should you lean in, the faded inscription at the base to the Balbo monument is chilling. It reads, in part: Fascist Italy with the sponsorship of Benito Mussolini presents to Chicago this commemoration of a flight by Balbo in the 11th year of the Fascist Era.");
-}
+};
 
 
 //Begin Slider
