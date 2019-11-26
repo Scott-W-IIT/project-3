@@ -322,12 +322,12 @@ just for appearance; change whatever you want
 
 .slide:nth-of-type(2){
     background-color: orange;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/free-stock-photos-1.jpg');
+  background-image: url('https://raw.githubusercontent.com/Scott-W-IIT/project-3/master/images/joshua3.jpg');
 }
 
 .slide:nth-of-type(3){
     background-color: green;
-  background-image: url('images/joshua1.jpg');
+  background-image: url('https://raw.githubusercontent.com/Scott-W-IIT/project-3/master/images/joshua1.jpg');
 }
 
 .controls{
